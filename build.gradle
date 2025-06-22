@@ -165,6 +165,8 @@ dependencies {
 
   implementation group: 'io.rest-assured', name: 'rest-assured'
   implementation group: 'org.projectlombok', name: 'lombok'
+  implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+  implementation 'org.postgresql:postgresql'
   annotationProcessor 'org.projectlombok:lombok'
 
   testImplementation(platform('org.junit:junit-bom:5.13.0'))
